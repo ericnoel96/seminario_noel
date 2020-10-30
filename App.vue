@@ -11,9 +11,12 @@ import {
 
 import HomeScreen from "./screens/Home.vue";
 import CameraScreen from "./screens/Camera.vue";
+import WebServiceScreen from "./screens/WebService.vue";
+
 
 const Tabs = createMaterialTopTabNavigator({
   Camera: HomeScreen,
+  Random: WebServiceScreen,
 });
 
 const StackNavigator = createStackNavigator(
