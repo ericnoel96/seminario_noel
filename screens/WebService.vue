@@ -9,7 +9,7 @@
         </touchable-opacity>
       </view>
     </view>
-
+    
     <view v-else-if="showPhotos">
       <button :on-press="changePage" title="Regresar" />
       <text class="text-color-primary">{{ clickedUser }}</text>
